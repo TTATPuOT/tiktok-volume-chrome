@@ -1,0 +1,21 @@
+.volume-control {
+    position: fixed;
+    width: 40px;
+    height: 140px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    transition: 0.3s;
+    opacity: 0.2;
+    text-align: center;
+}
+.volume-control:hover{
+    opacity: 1;
+}
+
+.volume-control input[type=range] {
+    -webkit-appearance: slider-vertical;
+    width: 8px;
+    height: 100px;
+    padding: 0 5px;
+}

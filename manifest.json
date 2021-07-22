@@ -1,0 +1,20 @@
+{
+  "name": "TikTok Volume Control",
+  "description": "Useful volume control for TikTok",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["scripting", "storage"],
+  "content_scripts": [
+    {
+      "matches": ["https://*.tiktok.com/*"],
+      "css": ["styles.css"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "16": "/img/icons/16.png",
+    "32": "/img/icons/32.png",
+    "48": "/img/icons/48.png",
+    "128": "/img/icons/128.png"
+  }
+}
